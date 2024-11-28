@@ -1,0 +1,39 @@
+[0.962s] Invoking command in '/home/zadok/ros2_ws/src/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data --force
+[1.248s] running develop
+[1.259s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.259s] !!
+[1.259s] 
+[1.259s]         ********************************************************************************
+[1.259s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.259s]         Instead, use pypa/build, pypa/installer or other
+[1.259s]         standards-based tools.
+[1.260s] 
+[1.260s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.260s]         ********************************************************************************
+[1.260s] 
+[1.260s] !!
+[1.260s]   easy_install.initialize_options(self)
+[1.477s] running egg_info
+[1.501s] writing my_py_pkg.egg-info/PKG-INFO
+[1.501s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.501s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.501s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.502s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.556s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.583s] running build_ext
+[1.584s] Creating /home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.584s] Installing add_two_ints_client script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.587s] Installing add_two_ints_client_no_oop script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.587s] Installing add_two_ints_server script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.587s] Installing number_counter script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.587s] Installing number_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.587s] Installing py_node script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.588s] Installing robot_news_station script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.588s] Installing smartphone script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[1.588s] 
+[1.588s] Installed /home/zadok/ros2_ws/src/build/my_py_pkg
+[1.588s] running symlink_data
+[1.588s] symbolically linking /home/zadok/ros2_ws/src/build/my_py_pkg/resource/my_py_pkg -> /home/zadok/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.588s] symbolically linking /home/zadok/ros2_ws/src/build/my_py_pkg/package.xml -> /home/zadok/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[1.652s] Invoked command in '/home/zadok/ros2_ws/src/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data --force

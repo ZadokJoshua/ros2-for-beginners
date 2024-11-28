@@ -1,0 +1,43 @@
+[0.087s] Invoking command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zadok/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/zadok/ros2_ws/src/install/my_robot_interfaces
+[0.546s] -- The C compiler identification is GNU 13.2.0
+[1.793s] -- The CXX compiler identification is GNU 13.2.0
+[2.114s] -- Detecting C compiler ABI info
+[3.242s] -- Detecting C compiler ABI info - done
+[3.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.293s] -- Detecting C compile features
+[3.311s] -- Detecting C compile features - done
+[3.376s] -- Detecting CXX compiler ABI info
+[3.896s] -- Detecting CXX compiler ABI info - done
+[3.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.935s] -- Detecting CXX compile features
+[3.939s] -- Detecting CXX compile features - done
+[3.949s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.453s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.768s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.880s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.881s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.961s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.453s] -- Configuring done (5.3s)
+[5.506s] -- Generating done (0.0s)
+[5.529s] -- Build files have been written to: /home/zadok/ros2_ws/src/build/my_robot_interfaces
+[5.608s] Invoked command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zadok/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/zadok/ros2_ws/src/install/my_robot_interfaces
+[5.630s] Invoking command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zadok/ros2_ws/src/build/my_robot_interfaces -- -j2 -l2
+[5.859s] Invoked command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zadok/ros2_ws/src/build/my_robot_interfaces -- -j2 -l2
+[6.131s] Invoking command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zadok/ros2_ws/src/build/my_robot_interfaces
+[6.159s] -- Install configuration: ""
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[6.165s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[6.166s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[6.179s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[6.185s] -- Installing: /home/zadok/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[6.191s] Invoked command in '/home/zadok/ros2_ws/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zadok/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zadok/ros2_ws/src/build/my_robot_interfaces

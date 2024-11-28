@@ -1,0 +1,28 @@
+[1.716s] Invoking command in '/home/zadok/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/zadok/ros2_ws/src/build/my_py_pkg/build install --record /home/zadok/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.026s] running egg_info
+[2.069s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.069s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.070s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.070s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.070s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.191s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.191s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.191s] running build
+[2.191s] running build_py
+[2.191s] running install
+[2.191s] running install_lib
+[2.218s] running install_data
+[2.218s] running install_egg_info
+[2.245s] removing '/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.250s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.264s] running install_scripts
+[2.378s] Installing add_two_ints_client script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.380s] Installing add_two_ints_client_no_oop script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.381s] Installing add_two_ints_server script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.382s] Installing number_counter script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.383s] Installing number_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.383s] Installing py_node script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.384s] Installing robot_news_station script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.385s] Installing smartphone script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.387s] writing list of installed files to '/home/zadok/ros2_ws/src/build/my_py_pkg/install.log'
+[2.439s] Invoked command in '/home/zadok/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/zadok/ros2_ws/src/build/my_py_pkg/build install --record /home/zadok/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
