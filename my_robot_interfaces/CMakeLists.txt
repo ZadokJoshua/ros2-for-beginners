@@ -11,7 +11,9 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HardwareStatus.msg"
+  "msg/LedPanelStatus.msg"
   "srv/ComputeRectangleArea.srv"
+  "srv/ChangeLedState.srv"
 )
 
 ament_package()

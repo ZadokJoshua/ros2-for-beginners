@@ -1,0 +1,62 @@
+#!usr/bin/env python 
+import rclpy
+from rclpy.node import Node
+
+from my_robot_interfaces.msg import LedPanelStatus
+from my_robot_interfaces.srv import ChangeLedState
+
+class LedPanelNode(Node):
+    def __init__(self):
+        super().__init__("led_panel")
+        self.led_states_ = LedPanelStatus()
+        self.led_state_server_ = self.create_service(ChangeLedState, "set_led", self.callback_change_led_state)
+        self.led_state_publisher_ = self.create_publisher(LedPanelStatus, "led_panel_state", 10)
+        self.timer = self.create_timer(1.0, self.publish_led_states)
+        self.get_logger().info("Led panel status publisher has been started.")
+
+    def callback_change_led_state(self, request: ChangeLedState.Request, response: ChangeLedState.Response):
+        led_number = request.led_number
+        request_action = request.turn_on
+        
+        match led_number:
+            case 1:
+                self.process_request(response, led_number, request_action)
+            case 2:
+                self.process_request(response, led_number, request_action)
+            case 3:
+                self.process_request(response, led_number, request_action)
+            case default:
+                response.success = False
+                response.message = f"Wrong Led Number {led_number} - Choose between 1 to 3"
+                self.get_logger().error(response.message)
+                
+        return response
+
+    def process_request(self, response, led_number, request_action):
+        if (self.led_states_.is_led_on[led_number-1] == request_action):
+            response.success = False
+            response.message = f"Action {self.get_on_off_str(request_action)} == current state {self.get_on_off_str(self.led_states_.is_led_on[0-1])}"
+            self.get_logger().error(response.message)
+        else:
+            self.led_states_.is_led_on[led_number-1] = request_action
+            response.success = True
+            response.message = f"Previous state: {self.get_on_off_str(not request_action)} <--> Current state is {self.get_on_off_str(request_action)}"
+            self.get_logger().info(f"Led {led_number} state changed.")
+
+    def publish_led_states(self):
+        self.led_state_publisher_.publish(self.led_states_)
+    
+    def get_on_off_str(self, is_true: bool):
+        if(is_true):
+            return "on"
+        else:
+            return "off"
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = LedPanelNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
