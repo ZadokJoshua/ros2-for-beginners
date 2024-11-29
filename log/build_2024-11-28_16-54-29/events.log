@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.001023] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001107] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001144] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/zadok/ros2_ws/src/install/my_robot_interfaces'})}
+[0.012506] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.072694] (-) TimerEvent: {}
+[0.207321] (-) TimerEvent: {}
+[0.316784] (-) TimerEvent: {}
+[0.438008] (-) TimerEvent: {}
+[0.542187] (-) TimerEvent: {}
+[0.646667] (-) TimerEvent: {}
+[0.748189] (-) TimerEvent: {}
+[0.851145] (-) TimerEvent: {}
+[0.964139] (-) TimerEvent: {}
+[1.084745] (-) TimerEvent: {}
+[1.198748] (-) TimerEvent: {}
+[1.346045] (-) TimerEvent: {}
+[1.449324] (-) TimerEvent: {}
+[1.552564] (-) TimerEvent: {}
+[1.661733] (-) TimerEvent: {}
+[1.796455] (-) TimerEvent: {}
+[1.900623] (-) TimerEvent: {}
+[2.011605] (-) TimerEvent: {}
+[2.175834] (-) TimerEvent: {}
+[2.292384] (-) TimerEvent: {}
+[2.394118] (-) TimerEvent: {}
+[2.497518] (-) TimerEvent: {}
+[2.599135] (-) TimerEvent: {}
+[2.708060] (-) TimerEvent: {}
+[2.812731] (-) TimerEvent: {}
+[2.914344] (-) TimerEvent: {}
+[3.033621] (-) TimerEvent: {}
+[3.138355] (-) TimerEvent: {}
+[3.272083] (-) TimerEvent: {}
+[3.374358] (-) TimerEvent: {}
+[3.480850] (-) TimerEvent: {}
+[3.600737] (-) TimerEvent: {}
+[3.705872] (-) TimerEvent: {}
+[3.812984] (-) TimerEvent: {}
+[3.922898] (-) TimerEvent: {}
+[4.023923] (-) TimerEvent: {}
+[4.127747] (-) TimerEvent: {}
+[4.261682] (-) TimerEvent: {}
+[4.377393] (-) TimerEvent: {}
+[4.483899] (-) TimerEvent: {}
+[4.600466] (-) TimerEvent: {}
+[4.709465] (-) TimerEvent: {}
+[4.826941] (-) TimerEvent: {}
+[4.938783] (-) TimerEvent: {}
+[5.042777] (-) TimerEvent: {}
+[5.148731] (-) TimerEvent: {}
+[5.251392] (-) TimerEvent: {}
+[5.357384] (-) TimerEvent: {}
+[5.462329] (-) TimerEvent: {}
+[5.571701] (-) TimerEvent: {}
+[5.679176] (-) TimerEvent: {}
+[5.783112] (-) TimerEvent: {}
+[5.884520] (-) TimerEvent: {}
+[5.987060] (-) TimerEvent: {}
+[6.095036] (-) TimerEvent: {}
+[6.207485] (-) TimerEvent: {}
+[6.315733] (-) TimerEvent: {}
+[6.418082] (-) TimerEvent: {}
+[6.530689] (-) TimerEvent: {}
+[6.638822] (-) TimerEvent: {}
+[6.752991] (-) TimerEvent: {}
+[6.858022] (-) TimerEvent: {}
+[6.965548] (-) TimerEvent: {}
+[7.076635] (-) TimerEvent: {}
+[7.190415] (-) TimerEvent: {}
+[7.307172] (-) TimerEvent: {}
+[7.411046] (-) TimerEvent: {}
+[7.523149] (-) TimerEvent: {}
+[7.626743] (-) TimerEvent: {}
+[7.738959] (-) TimerEvent: {}
+[7.842524] (-) TimerEvent: {}
+[7.947137] (-) TimerEvent: {}
+[8.065834] (-) TimerEvent: {}
+[8.194984] (-) TimerEvent: {}
+[8.302122] (-) TimerEvent: {}
+[8.406771] (-) TimerEvent: {}
+[8.514817] (-) TimerEvent: {}
+[8.626855] (-) TimerEvent: {}
+[8.738918] (-) TimerEvent: {}
+[8.845124] (-) TimerEvent: {}
+[8.956088] (-) TimerEvent: {}
+[9.058770] (-) TimerEvent: {}
+[9.190292] (-) TimerEvent: {}
+[9.299988] (-) TimerEvent: {}
+[9.404223] (-) TimerEvent: {}
+[9.522848] (-) TimerEvent: {}
+[9.630073] (-) TimerEvent: {}
+[9.736751] (-) TimerEvent: {}
+[9.842650] (-) TimerEvent: {}
+[9.955744] (-) TimerEvent: {}
+[10.058455] (-) TimerEvent: {}
+[10.184106] (-) TimerEvent: {}
+[10.288960] (-) TimerEvent: {}
+[10.395168] (-) TimerEvent: {}
+[10.500498] (-) TimerEvent: {}
+[10.602658] (-) TimerEvent: {}
+[10.732211] (-) TimerEvent: {}
+[10.845207] (-) TimerEvent: {}
+[10.965000] (-) TimerEvent: {}
+[11.079688] (-) TimerEvent: {}
+[11.189028] (-) TimerEvent: {}
+[11.304666] (-) TimerEvent: {}
+[11.416270] (-) TimerEvent: {}
+[11.520138] (-) TimerEvent: {}
+[11.626263] (-) TimerEvent: {}
+[11.759743] (-) TimerEvent: {}
+[11.870590] (-) TimerEvent: {}
+[11.996728] (-) TimerEvent: {}
+[12.110978] (-) TimerEvent: {}
+[12.242702] (-) TimerEvent: {}
+[12.361382] (-) TimerEvent: {}
+[12.466179] (-) TimerEvent: {}
+[12.571706] (-) TimerEvent: {}
+[12.676960] (-) TimerEvent: {}
+[12.782041] (-) TimerEvent: {}
+[12.886914] (-) TimerEvent: {}
+[12.991084] (-) TimerEvent: {}
+[13.110834] (-) TimerEvent: {}
+[13.211694] (-) TimerEvent: {}
+[13.315703] (-) TimerEvent: {}
+[13.428613] (-) TimerEvent: {}
+[13.532053] (-) TimerEvent: {}
+[13.649887] (-) TimerEvent: {}
+[13.767315] (-) TimerEvent: {}
+[13.885040] (-) TimerEvent: {}
+[13.988719] (-) TimerEvent: {}
+[13.999714] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/zadok/ros2_ws/src/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/zadok/ros2_ws/src/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '3864c39c-c9c2-4e7b-b700-2c33401dba30', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zadok', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zadok', 'OLDPWD': '/home/zadok/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1689', 'SYSTEMD_EXEC_PID': '1941', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2861', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zadok/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zadok', 'JOURNAL_STREAM': '8:14161', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zadok', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zadok-VirtualBox:@/tmp/.ICE-unix/1893,unix/zadok-VirtualBox:/tmp/.ICE-unix/1893', 'INVOCATION_ID': '786e05271b994e6cb65cae05360495e4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IFLRX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zadok/ros2_ws/src/install/my_robot_interfaces:/home/zadok/ros2_ws/install/my_py_pkg:/home/zadok/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5556de96-1bd1-4acb-b131-cd50aa67aad2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zadok/ros2_ws/src/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:/home/zadok/ros2_ws/build/my_py_pkg:/home/zadok/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/zadok/ros2_ws/src/install/my_robot_interfaces:/home/zadok/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.099833] (-) TimerEvent: {}
+[14.202219] (-) TimerEvent: {}
+[14.332583] (-) TimerEvent: {}
+[14.435925] (-) TimerEvent: {}
+[14.871245] (-) TimerEvent: {}
+[14.992781] (-) TimerEvent: {}
+[15.098871] (-) TimerEvent: {}
+[15.218633] (-) TimerEvent: {}
+[15.330113] (-) TimerEvent: {}
+[15.448344] (-) TimerEvent: {}
+[15.556446] (-) TimerEvent: {}
+[15.660090] (-) TimerEvent: {}
+[15.778778] (-) TimerEvent: {}
+[15.883924] (-) TimerEvent: {}
+[16.006474] (-) TimerEvent: {}
+[16.125415] (-) TimerEvent: {}
+[16.227747] (-) TimerEvent: {}
+[16.332904] (-) TimerEvent: {}
+[16.474926] (-) TimerEvent: {}
+[16.576629] (-) TimerEvent: {}
+[16.679101] (-) TimerEvent: {}
+[16.798011] (-) TimerEvent: {}
+[16.911777] (-) TimerEvent: {}
+[17.032716] (-) TimerEvent: {}
+[17.157038] (-) TimerEvent: {}
+[17.264180] (-) TimerEvent: {}
+[17.391104] (-) TimerEvent: {}
+[17.493713] (-) TimerEvent: {}
+[17.599961] (-) TimerEvent: {}
+[17.719187] (-) TimerEvent: {}
+[17.821965] (-) TimerEvent: {}
+[17.939940] (-) TimerEvent: {}
+[18.061017] (-) TimerEvent: {}
+[18.099876] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[18.166288] (-) TimerEvent: {}
+[18.169370] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[18.172609] (my_py_pkg) StderrLine: {'line': b'!!\n'}
+[18.276772] (-) TimerEvent: {}
+[18.288161] (my_py_pkg) StderrLine: {'line': b'\n'}
+[18.296550] (my_py_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[18.318694] (my_py_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[18.318944] (my_py_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[18.319157] (my_py_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[18.319347] (my_py_pkg) StderrLine: {'line': b'\n'}
+[18.319515] (my_py_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[18.319754] (my_py_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[18.320063] (my_py_pkg) StderrLine: {'line': b'\n'}
+[18.320300] (my_py_pkg) StderrLine: {'line': b'!!\n'}
+[18.320538] (my_py_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[18.382224] (-) TimerEvent: {}
+[18.490583] (-) TimerEvent: {}
+[18.753721] (-) TimerEvent: {}
+[18.855856] (-) TimerEvent: {}
+[18.960475] (-) TimerEvent: {}
+[19.074041] (-) TimerEvent: {}
+[19.186244] (-) TimerEvent: {}
+[19.289765] (-) TimerEvent: {}
+[19.397754] (-) TimerEvent: {}
+[19.503367] (-) TimerEvent: {}
+[19.610444] (-) TimerEvent: {}
+[19.671559] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[19.716715] (-) TimerEvent: {}
+[19.830158] (-) TimerEvent: {}
+[19.949197] (-) TimerEvent: {}
+[20.076865] (-) TimerEvent: {}
+[20.094878] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[20.122818] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[20.142213] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[20.166830] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[20.192974] (-) TimerEvent: {}
+[20.238824] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[20.301189] (-) TimerEvent: {}
+[20.534656] (-) TimerEvent: {}
+[20.553925] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[20.575237] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[20.644526] (-) TimerEvent: {}
+[20.708555] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[20.743783] (my_py_pkg) StdoutLine: {'line': b'Creating /home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[20.754145] (-) TimerEvent: {}
+[20.784747] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.800978] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.811722] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.813482] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.839204] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.839754] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.839898] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.841545] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.841823] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[20.845383] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[20.862292] (-) TimerEvent: {}
+[20.864407] (my_py_pkg) StdoutLine: {'line': b'Installed /home/zadok/ros2_ws/src/build/my_py_pkg\n'}
+[20.864799] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[20.966455] (-) TimerEvent: {}
+[21.108298] (-) TimerEvent: {}
+[21.205872] (my_py_pkg) CommandEnded: {'returncode': 0}
+[21.209475] (-) TimerEvent: {}
+[21.314643] (-) TimerEvent: {}
+[21.417925] (-) TimerEvent: {}
+[21.519878] (-) TimerEvent: {}
+[21.543900] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[21.561896] (-) EventReactorShutdown: {}

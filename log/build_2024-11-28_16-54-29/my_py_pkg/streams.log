@@ -1,0 +1,38 @@
+[14.016s] Invoking command in '/home/zadok/ros2_ws/src/build/my_py_pkg': AMENT_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[18.088s] running develop
+[18.160s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[18.263s] !!
+[18.283s] 
+[18.306s]         ********************************************************************************
+[18.306s]         Please avoid running ``setup.py`` and ``easy_install``.
+[18.307s]         Instead, use pypa/build, pypa/installer or other
+[18.307s]         standards-based tools.
+[18.307s] 
+[18.307s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[18.307s]         ********************************************************************************
+[18.308s] 
+[18.308s] !!
+[18.308s]   easy_install.initialize_options(self)
+[19.659s] running egg_info
+[20.083s] writing my_py_pkg.egg-info/PKG-INFO
+[20.114s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[20.130s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[20.155s] writing requirements to my_py_pkg.egg-info/requires.txt
+[20.241s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[20.561s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[20.582s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[20.696s] running build_ext
+[20.731s] Creating /home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[20.772s] Installing add_two_ints_client script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.789s] Installing add_two_ints_client_no_oop script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.801s] Installing add_two_ints_server script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.826s] Installing hw_status_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.827s] Installing number_counter script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.827s] Installing number_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.827s] Installing py_node script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.829s] Installing robot_news_station script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.833s] Installing smartphone script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[20.833s] 
+[20.852s] Installed /home/zadok/ros2_ws/src/build/my_py_pkg
+[20.852s] running symlink_data
+[21.194s] Invoked command in '/home/zadok/ros2_ws/src/build/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
