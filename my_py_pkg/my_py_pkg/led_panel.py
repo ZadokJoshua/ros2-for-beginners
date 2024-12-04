@@ -1,7 +1,7 @@
 #!usr/bin/env python 
 import rclpy
-from rclpy.node import Node
 
+from rclpy.node import Node
 from my_robot_interfaces.msg import LedPanelStatus
 from my_robot_interfaces.srv import ChangeLedState
 
@@ -35,22 +35,19 @@ class LedPanelNode(Node):
     def process_request(self, response, led_number, request_action):
         if (self.led_states_.is_led_on[led_number-1] == request_action):
             response.success = False
-            response.message = f"Action {self.get_on_off_str(request_action)} == current state {self.get_on_off_str(self.led_states_.is_led_on[0-1])}"
+            response.message = f"Led {led_number} current state \'{self.get_on_off_str(self.led_states_.is_led_on[led_number-1])}\' can't be equal to command \'{self.get_on_off_str(request_action)}\'"
             self.get_logger().error(response.message)
         else:
             self.led_states_.is_led_on[led_number-1] = request_action
             response.success = True
-            response.message = f"Previous state: {self.get_on_off_str(not request_action)} <--> Current state is {self.get_on_off_str(request_action)}"
+            response.message = f"Previous state: \'{self.get_on_off_str(not request_action)}\' <--> Current state: \'{self.get_on_off_str(request_action)}\'"
             self.get_logger().info(f"Led {led_number} state changed.")
 
     def publish_led_states(self):
         self.led_state_publisher_.publish(self.led_states_)
     
     def get_on_off_str(self, is_true: bool):
-        if(is_true):
-            return "on"
-        else:
-            return "off"
+        return "on" if is_true else "off"
 
 def main(args=None):
     rclpy.init(args=args)
