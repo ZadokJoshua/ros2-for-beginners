@@ -4,7 +4,6 @@ import random
 
 from rclpy.node import Node
 from my_robot_interfaces.srv import ChangeLedState
-from functools import partial
 
 class BatteryNode(Node):
     def __init__(self):
