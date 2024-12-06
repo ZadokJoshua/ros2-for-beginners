@@ -5,22 +5,23 @@ def generate_launch_description():
     ld =  LaunchDescription()
     
     remap_robot_news_topic = ("robot_news","minna_robot_news")
-    set_robot_news_param_value = {"robot_name", "max_pa"}
     
-    #robots = ["Chapi", "Atlas", "Swiss Mile", "Mentee", "Zadok"]
-    # for robot in robots:
+    robots = ["Chapi", "Atlas", "Swiss_Mile", "Mentee", "Zadok"]
+    
+    for robot in robots:
+        robot_news_station_node = Node(
+            package="my_py_pkg",
+            executable="robot_news_station",
+            name=f"{robot}_robot_news_station",
+            remappings=[
+                remap_robot_news_topic
+            ],
+            parameters=[
+                {"robot_name": robot}
+            ]
+        )
         
-    robot_news_station_node = Node(
-        package="my_py_pkg",
-        executable="robot_news_station",
-        name="my_robot_news_station",
-        remappings=[
-            remap_robot_news_topic
-        ],
-        parameters=[
-            set_robot_news_param_value
-        ]
-    )
+        ld.add_action(robot_news_station_node)
         
         
     smartphone_node = Node(
@@ -32,8 +33,6 @@ def generate_launch_description():
         ]
     )
     
-    ld.add_action(robot_news_station_node)
     ld.add_action(smartphone_node)
     
     return ld 
-
