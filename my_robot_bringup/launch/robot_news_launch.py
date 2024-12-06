@@ -5,6 +5,7 @@ def generate_launch_description():
     ld =  LaunchDescription()
     
     remap_robot_news_topic = ("robot_news","minna_robot_news")
+    set_robot_news_param_value = {"robot_name", "max_pa"}
     
     #robots = ["Chapi", "Atlas", "Swiss Mile", "Mentee", "Zadok"]
     # for robot in robots:
@@ -17,7 +18,7 @@ def generate_launch_description():
             remap_robot_news_topic
         ],
         parameters=[
-            {"robot_name", "tinker"}
+            set_robot_news_param_value
         ]
     )
         
