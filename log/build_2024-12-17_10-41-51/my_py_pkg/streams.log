@@ -1,0 +1,41 @@
+[1.840s] Invoking command in '/home/zadok/ros2_ws/src/build/my_py_pkg': AMENT_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[2.257s] running develop
+[2.265s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.265s] !!
+[2.265s] 
+[2.265s]         ********************************************************************************
+[2.265s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.265s]         Instead, use pypa/build, pypa/installer or other
+[2.265s]         standards-based tools.
+[2.265s] 
+[2.266s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.266s]         ********************************************************************************
+[2.266s] 
+[2.266s] !!
+[2.266s]   easy_install.initialize_options(self)
+[2.511s] running egg_info
+[2.534s] writing my_py_pkg.egg-info/PKG-INFO
+[2.535s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.536s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.539s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.539s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.594s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.607s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.633s] running build_ext
+[2.633s] Creating /home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.633s] Installing add_two_ints_client script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.633s] Installing add_two_ints_client_no_oop script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.642s] Installing add_two_ints_server script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.642s] Installing battery script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing hardware_status_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing led_panel script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing number_counter script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing number_publisher script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing py_node script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing robot_news_station script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing smartphone script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] Installing turtle_driver script to /home/zadok/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[2.643s] 
+[2.643s] Installed /home/zadok/ros2_ws/src/build/my_py_pkg
+[2.643s] running symlink_data
+[2.674s] Invoked command in '/home/zadok/ros2_ws/src/build/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zadok/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zadok/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:/home/zadok/ros2_ws/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zadok/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data

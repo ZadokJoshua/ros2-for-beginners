@@ -13,7 +13,7 @@ def generate_launch_description():
             Node(
                 package="my_py_pkg",
                 executable="robot_news_station",
-                name=f"{robot}_robot_news_station",
+                name=f"{robot.lower()}_robot_news_station",
                 remappings=[
                     remap_robot_news_topic
                 ],
